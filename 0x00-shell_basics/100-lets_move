@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -maxdepth 1 -type f -name "[[:upper:]]*" -print0 | xargs -0 -I {} mv {} /tmp/u/
