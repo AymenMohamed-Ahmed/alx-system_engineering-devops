@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1p --group-directories-first | sort -k1,1 -k2n | awk '{printf "%s, ", $0}' | sed 's/, $/\n/'
+ls -1pa --group-directories-first | sort -k1,1 -k2n | awk '{printf "%s, ", $0}' | sed 's/, $/\n/'
