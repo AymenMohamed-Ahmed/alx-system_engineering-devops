@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap | sort -k1,1 -k2n | awk '{printf "%s, ", $0}' | sed 's/, $/\n/'
+ls -pam
